@@ -1,4 +1,4 @@
-package Compras;
+package ListaExercicios.Compras;
 
 import java.util.ArrayList;
 

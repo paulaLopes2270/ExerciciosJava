@@ -1,4 +1,4 @@
-package Escolar;
+package ListaExercicios.Escolar;
 
 public class Aluno {
 

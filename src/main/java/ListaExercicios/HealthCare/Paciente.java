@@ -1,4 +1,4 @@
-package HealthCare;
+package ListaExercicios.HealthCare;
 
 
 public class Paciente {

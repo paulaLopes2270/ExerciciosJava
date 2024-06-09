@@ -1,4 +1,4 @@
-package IR;
+package ListaExercicios.IR;
 
 public class Pessoa {
     private String nome;

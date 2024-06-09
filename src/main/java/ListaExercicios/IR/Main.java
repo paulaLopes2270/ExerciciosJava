@@ -1,4 +1,4 @@
-package IR;
+package ListaExercicios.IR;
 
 import java.util.Scanner;
 
