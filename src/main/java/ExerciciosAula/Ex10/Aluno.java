@@ -1,4 +1,4 @@
-package ExerciciosAula.Ex11;
+package ExerciciosAula.Ex10;
 
 public class Aluno extends Pessoa {
     private String matricula;

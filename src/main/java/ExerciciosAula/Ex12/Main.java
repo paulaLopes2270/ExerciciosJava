@@ -2,29 +2,32 @@ package ExerciciosAula.Ex12;
 
 import java.util.Scanner;
 
-public class Main extends Mensagem {
+public class Main {
     public static void main(String[] args) {
-        Main principal = new Main();
         Scanner scanner = new Scanner(System.in);
 
-        // Exibindo Mensagem A
-        principal.exibeMensagemA();
+        System.out.println("Digite o nome do compromisso profissional:");
+        String nomeProf = scanner.nextLine();
+        System.out.println("Digite a data do compromisso profissional:");
+        String dataProf = scanner.nextLine();
+        System.out.println("Digite a hora do compromisso profissional:");
+        String horaProf = scanner.nextLine();
 
-        // Solicitando e exibindo Mensagem B
-        System.out.println("Digite uma mensagem para a preservação do planeta:");
-        String mensagem = scanner.nextLine();
-        principal.exibeMensagemB(mensagem);
+        Profissional compromissoProfissional = new Profissional(nomeProf, dataProf, horaProf);
+
+        System.out.println("Digite o nome do compromisso pessoal:");
+        String nomePess = scanner.nextLine();
+        System.out.println("Digite a data do compromisso pessoal:");
+        String dataPess = scanner.nextLine();
+        System.out.println("Digite a hora do compromisso pessoal:");
+        String horaPess = scanner.nextLine();
+
+        Pessoal compromissoPessoal = new Pessoal(nomePess, dataPess, horaPess);
+
+        // Exibir informações de compromissos
+        compromissoProfissional.exibeCompromisso();
+        compromissoPessoal.exibeCompromisso();
 
         scanner.close();
-    }
-
-    @Override
-    public void exibeMensagemA() {
-        System.out.println("Cuide bem dos animais.");
-    }
-
-    @Override
-    public void exibeMensagemB(String mensagem) {
-        System.out.println(mensagem);
     }
 }

@@ -1,17 +1,15 @@
 package ExerciciosAula.Ex10;
 
 public class Pessoa {
-    protected String nome;
-    protected int idade;
-    protected String telefone;
+    private String nome;
+    private String rg;
 
-    public Pessoa(String nome, int idade, String telefone) {
+    public Pessoa(String nome, String rg) {
         this.nome = nome;
-        this.idade = idade;
-        this.telefone = telefone;
+        this.rg = rg;
     }
 
-    public String toString() {
-        return "Nome: " + nome + ", Idade: " + idade + ", Telefone: " + telefone;
+    public void apresentarDados() {
+        System.out.println("Nome: " + nome + ", RG: " + rg);
     }
 }

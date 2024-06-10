@@ -1,4 +1,4 @@
-package ExerciciosAula.Ex13;
+package ExerciciosAula.Ex12;
 
 public class Profissional extends Compromisso implements ExibeCompromisso {
     public Profissional(String nome, String data, String hora) {

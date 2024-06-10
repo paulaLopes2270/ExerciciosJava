@@ -1,4 +1,4 @@
-package ExerciciosAula.Ex10;
+package ExerciciosAula.Ex09;
 
 public class Funcionario extends Pessoa {
     private String setor;

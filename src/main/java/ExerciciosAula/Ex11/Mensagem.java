@@ -1,4 +1,4 @@
-package ExerciciosAula.Ex12;
+package ExerciciosAula.Ex11;
 
 public abstract class Mensagem {
     public abstract void exibeMensagemA();

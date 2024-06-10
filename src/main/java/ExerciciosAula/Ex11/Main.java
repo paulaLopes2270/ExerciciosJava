@@ -1,20 +1,30 @@
 package ExerciciosAula.Ex11;
 
-public class Main {
+import java.util.Scanner;
+
+public class Main extends Mensagem {
     public static void main(String[] args) {
-        Pessoa pessoa = new Pessoa("Carlos", "123456789");
-        Aluno aluno = new Aluno("Maria", "987654321", "A123456");
-        Professor professor = new Professor("João", "456789123", "P654321", 5000.00);
+        Main principal = new Main();
+        Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Dados da Pessoa:");
-        pessoa.apresentarDados();
-        System.out.println();
+        // Exibindo Mensagem A
+        principal.exibeMensagemA();
 
-        System.out.println("Dados do Aluno:");
-        aluno.apresentarDados();
-        System.out.println();
+        // Solicitando e exibindo Mensagem B
+        System.out.println("Digite uma mensagem para a preservação do planeta:");
+        String mensagem = scanner.nextLine();
+        principal.exibeMensagemB(mensagem);
 
-        System.out.println("Dados do Professor:");
-        professor.apresentarDados();
+        scanner.close();
+    }
+
+    @Override
+    public void exibeMensagemA() {
+        System.out.println("Cuide bem dos animais.");
+    }
+
+    @Override
+    public void exibeMensagemB(String mensagem) {
+        System.out.println(mensagem);
     }
 }

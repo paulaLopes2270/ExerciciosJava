@@ -1,4 +1,4 @@
-package ExerciciosAula.Ex13;
+package ExerciciosAula.Ex12;
 
 public class Compromisso {
     protected String nome;

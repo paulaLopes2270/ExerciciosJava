@@ -1,4 +1,4 @@
-package ExerciciosAula.Ex09;
+package ExerciciosAula.Ex08;
 
 public class Animal {
     protected String tipo;

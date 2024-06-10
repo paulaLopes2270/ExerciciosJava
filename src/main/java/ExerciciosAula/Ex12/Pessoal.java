@@ -1,4 +1,4 @@
-package ExerciciosAula.Ex13;
+package ExerciciosAula.Ex12;
 
 
 public class Pessoal extends Compromisso implements ExibeCompromisso {

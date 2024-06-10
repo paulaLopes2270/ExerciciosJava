@@ -1,4 +1,4 @@
-package ExerciciosAula.Ex13;
+package ExerciciosAula.Ex12;
 
 public interface ExibeCompromisso {
     void exibeCompromisso();
