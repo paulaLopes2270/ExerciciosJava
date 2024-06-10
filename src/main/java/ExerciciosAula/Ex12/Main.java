@@ -7,14 +7,12 @@ public class Main extends Mensagem {
         Main principal = new Main();
         Scanner scanner = new Scanner(System.in);
 
-        // Exibe a Mensagem A: "Cuide bem dos animais."
+        // Exibindo Mensagem A
         principal.exibeMensagemA();
 
-        // Solicita ao usuário uma mensagem para preservação do planeta
+        // Solicitando e exibindo Mensagem B
         System.out.println("Digite uma mensagem para a preservação do planeta:");
         String mensagem = scanner.nextLine();
-
-        // Exibe a Mensagem B: mensagem digitada pelo usuário
         principal.exibeMensagemB(mensagem);
 
         scanner.close();
